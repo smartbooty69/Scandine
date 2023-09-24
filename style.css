@@ -1,0 +1,274 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container p {
+    color: #3d3c3c;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container pre {
+    color: #414040;
+    font-family: "Open Sans", sans-serif;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+button:hover {
+
+    background-color: rgb(168, 165, 165);
+    color: white;
+    opacity: 0.5;
+}
+
+/* Header */
+
+header {
+    background: #35424a;
+    color: #ffffff;
+}
+
+header .container ul li {
+    font-size: 15px;
+}
+
+header .container ul li:hover {
+    color: #e45b36;
+}
+
+header .container ul li {
+    color: #ececec;
+    top: -50px;
+    list-style: none;
+    padding: 9px;
+    float: right;
+    position: relative;
+}
+
+
+header h1 {
+    font-family: 'Stalinist One', cursive;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    width: 50%;
+    padding: 1%;
+    color: white;
+    background-color: #D97A0E;
+    border: none;
+}
+
+.button_btn {
+    color: #f3f7f6;
+    background: transparent;
+    border: 1px solid #f7f8f8;
+    font-size: 12px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+    border-radius: 20px;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url('chef.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/* Newsletter */
+
+#newsletter .img2 {
+    width: 60%;
+    float: left;
+    margin-right: 25px;
+}
+
+#newsletter img {
+    width: 60%;
+    float: right;
+    margin-right: 25px;
+}
+
+#box {
+    text-align: center;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #39434C;
+    text-align: center;
+}
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #newsletter button,
+    .quote button {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"],
+    .quote input,
+    .quote textarea {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+.column {
+    /* width: 200%;
+    display: flex;
+    flex-direction: column;*/
+}
+
+.row {
+    margin-top: 0%;
+    margin: 90px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 20px;
+}
+
+.card {
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container h3 {
+    color: rgb(247, 162, 4);
+}
+
+#pic_1 img {
+    width: 30%;
+    display: block;
+    border-radius: 50%;
+}
+
+#flag img {
+    width: 6%;
+    float: left;
+    margin-top: -3em;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+#box {
+    background-size: ;
+    background-image: url('map.png');
+}
+
+.foot ul li {
+    text-align: left;
+    list-style: none;
+    padding: 8px;
+    color: #c0c0c0;
+}
+
+.foot {
+    padding: 5%;
+    justify-content: space-between;
+    padding-top: 0;
+    display: flex;
+}
+
+#end {
+    text-align: center;
+}
+
+#txtbox {
+    text-align: center;
+    width: 50%;
+    padding: 8px;
+}
+
+.foot ul hr {
+
+    border: 1px solid rgb(128, 128, 128)
+}
+
+.foot ul li:hover {
+    color: white;
+}
+
+
+#detail ul li {
+    display: inline-flex;
+    list-style: none;
+    color: #c4c4c4;
+    margin-left: 1%;
+}
+
+#detail ul li:hover {
+    color: white;
+}
